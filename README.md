@@ -2,6 +2,8 @@
 
 A Cloudflare Worker API that generates images using various Stable Diffusion and Flux models. It supports an "auto" mode that uses a text-to-text model (Llama) to intelligently select the best image model based on your prompt.
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/S4tyendra/cloudflareai-images)
+
 ## Features
 
 * **Auth**: Protected by `x-api-key` header.
