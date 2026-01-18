@@ -1,0 +1,9 @@
+name = "cloudflareai-images"
+main = "worker.js"
+compatibility_date = "2026-01-13"
+
+[ai]
+binding = "AI"
+
+[vars]
+SECRET_KEY = "MIRIR5ttAaiWb6XXAw97vGcIoQUtz7R/pQVHK3x0OVQ=" # openssl rand -base64 32
